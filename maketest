@@ -1,0 +1,3 @@
+#!/bin/bash
+cat in | staff-jump61 | tee out.staff
+cat in | java -ea jump61.Main > out.my

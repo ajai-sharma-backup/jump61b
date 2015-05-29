@@ -1,0 +1,54 @@
+# Check that auto player can find the right move when forced. (Plays 3 games)
+java -ea jump61.Main
+None
+===#1===
+size 3
+seed 130223
+auto red
+
+set 1 1 1 r
+set 1 2 3 r
+set 1 3 2 b
+set 2 1 3 r
+set 2 2 3 r
+set 2 3 1 b
+set 3 1 1 b
+set 3 2 3 b
+set 3 3 1 r
+dump
+start
+%br
+%eb
+
+clear
+set 1 1 1 r
+set 1 2 3 r
+set 1 3 2 b
+set 2 1 3 r
+set 2 2 3 r
+set 2 3 1 b
+set 3 1 1 b
+set 3 2 3 b
+set 3 3 1 r
+dump
+start
+%br
+%eb
+
+clear
+set 1 1 1 r
+set 1 2 3 r
+set 1 3 2 b
+set 2 1 3 r
+set 2 2 3 r
+set 2 3 1 b
+set 3 1 1 b
+set 3 2 3 b
+set 3 3 1 r
+dump
+start
+%br
+%eb
+
+quit
+===#2===

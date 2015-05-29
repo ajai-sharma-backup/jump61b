@@ -1,0 +1,19 @@
+java -ea jump61.Main
+None
+===#1===
+set r 1 1 2
+#Error: syntax error in 'set' command
+set 1 1 2 r
+dump
+set 1 1 2 b
+dump
+set 1 1 0 r
+dump
+set 9 9 9 r
+#Error: invalid request to put 9 spots on square 9 9
+set 0 0 0 r
+#Error: invalid request to put 0 spots on square 0 0
+set q q q q
+#Error: syntax error in 'set' command
+quit
+===#2===

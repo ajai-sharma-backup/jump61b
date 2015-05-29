@@ -1,0 +1,10 @@
+java -ea jump61.Main
+None
+===#1===
+auto Red
+size 3
+start
+%rb
+%e
+quit
+===#2===
